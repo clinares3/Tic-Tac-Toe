@@ -129,12 +129,23 @@
                         <color key="backgroundColor" red="0.56228712587158913" green="0.0" blue="0.12884855393924252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="u5S-iY-L4b" appends="YES" id="vKq-WM-nVv"/>
+                            <outletCollection property="gestureRecognizers" destination="K0N-3Z-Exr" appends="YES" id="oq6-5H-aGg"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="box1" destination="WWe-nf-6CM" id="l09-In-45v"/>
+                        <outlet property="box2" destination="AiU-5H-0SM" id="Yji-0O-eoQ"/>
+                        <outlet property="box3" destination="6GI-6V-zRZ" id="Zuv-HY-3jD"/>
+                        <outlet property="box4" destination="Yaj-9U-ZdT" id="tFC-O6-and"/>
+                        <outlet property="box5" destination="UoG-fD-Xck" id="cEb-UJ-tYJ"/>
+                        <outlet property="box6" destination="Dw6-PU-aUJ" id="xJT-oR-haR"/>
+                        <outlet property="box7" destination="5Oy-Fv-Flg" id="arT-GJ-OTI"/>
+                        <outlet property="box8" destination="etL-3W-Eew" id="BkY-u1-1hB"/>
+                        <outlet property="box9" destination="2Sn-Vv-xyu" id="KIZ-vv-QbN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="u5S-iY-L4b"/>
+                <tapGestureRecognizer id="K0N-3Z-Exr"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
