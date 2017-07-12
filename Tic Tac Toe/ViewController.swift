@@ -29,26 +29,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var box9: UILabel!
     
+    @IBOutlet weak var changeTurn: UILabel!
     
+   
+    @IBAction func whenTapped(_ sender: UITapGestureRecognizer) {
+        let userTapped = sender.location(in: self.view)
+        print(userTapped)
+    }
     
+
     
+
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   //Already there. Don't touch.
+    //Already there. Don't touch.
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -61,4 +54,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
